@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.game-container {
+    text-align: center;
+}
+
+h1 {
+    color: #00ffff;
+    text-shadow: 0 0 15px #00ffff;
+    margin-bottom: 10px;
+}
+
+canvas {
+    border: 3px solid #00ffff;
+    background: linear-gradient(to bottom, #020111, #000000);
+    box-shadow: 0 0 20px #00ffff;
+}
+
+p {
+    color: white;
+    margin-top: 10px;
+}
